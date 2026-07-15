@@ -1,0 +1,107 @@
+<!-- HTML = Hypertext markup language -->
+<!-- Ngôn ngữ đánh dấu siêu văn bản -->
+<!-- ctrl + / -->
+<!-- format code là cách làm đẹp code để dễ đọc dễ viết -->
+<!-- cấu trúc HTML là các cặp thẻ -->
+<!-- Cascading style sheet -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website cua toi</title>
+    <link rel="stylesheet" href="./main.css" />
+    <style>
+      /* Cach 2: đưa CSS vào thẻ style */
+      header {
+        background-color: #888;
+        padding: 20px;
+      }
+
+      .btn {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 99px;
+        cursor: pointer;
+      }
+
+      p {
+        color: yellow !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- Code HTML cần có ngữ nghĩa - HTML Semantics -->
+      <!-- navigator = điều hướng -->
+      <nav>
+        <ul>
+          <!-- unordered list = danh sách không có thứ tự -->
+          <!-- ol = ordered list -->
+          <li>
+            <!-- anchor = mỏ neo để neo thông tin từ nơi khác vào đây. -->
+            <a href="/">Trang chủ</a>
+          </li>
+          <!-- li = list item -->
+          <li><a href="/">Giới thiệu</a></li>
+          <li><a href="#">Dịch vụ</a></li>
+          <li><a href="#">Liên hệ</a></li>
+          <!-- <a href="https://google.com">Trang chu google</a> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <!-- section = thành phần chính -->
+      </section>
+
+      <section>
+        <!-- section = thành phần chính -->
+      </section>
+
+      <section>
+        <!-- section = thành phần chính -->
+      </section>
+
+      <section>
+        <!-- section = thành phần chính -->
+      </section>
+
+      <section>
+        <!-- section = thành phần chính -->
+        <div>
+          <!-- div = division -->
+          <!-- khi mở ra 1 thẻ - trong thẻ mở có thể bổ sung thuộc tính = properties -->
+          <p title="chu thich them" style="color: red; background-color: blue">
+            <!-- Cach 1: CSS inline -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            ipsum saepe quibusdam iste porro ex animi fugit illum accusamus
+            fugiat!
+          </p>
+          <!-- DRY = Don't repeat yourself -->
+
+          <p title="chu thich them">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            ipsum saepe quibusdam iste porro ex animi fugit illum accusamus
+            fugiat!
+            <span>tu nao do</span>
+          </p>
+          <!-- CSS = Cascading Style Sheet = Ngôn ngữ tạo phong cách dạng xếp chồng -->
+          <button class="btn">Bam vao day</button>
+          <button class="btn">Bam vao day</button>
+          <button class="btn">Bam vao day</button>
+          <button class="btn">Bam vao day</button>
+        </div>
+      </section>
+
+      <!-- Chân trang -->
+      <footer>
+        thông tin bản quyền website của tôi, chú thích, pháp lý....
+      </footer>
+    </main>
+  </body>
+</html>
